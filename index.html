@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Tweets</title>
+</head>
+<body id="interactiveABC" class="interactiveABC">
+<div id="main">
+<div id="interactiveShell">
+<div class="columnGroup firstColumnGroup">
+<div class="ledeStory">
+<div class="module insetHFullWidth">
+<h1>Lucas Timmons' tweets</h1>
+</div><!--close .storyHeader -->
+<div class="storySummary">
+<span class="summary">A visualization of the tweets from @lucastimmons. The bubbles below are just a random sample of words. Use the search to find an exact word. Note: The matching words for full words only. Oiler will give 0 results while Oilers will give many.</span>
+</div><!--close .storySummary -->
+</div><!--end .module insetHFullWidth -->
+<div id="interactiveFreeFormMain">
+<meta name="viewport" content="width=990">
+<style>
+
+@import url(index.css);
+
+</style>
+<!--[if lte IE 8]>
+<div class="g-error">To view an interactive version of this graphic, use a browser with SVG support, such as <a href="http://www.google.com/chrome">Chrome</a>, <a href="http://www.mozilla.org/en-US/firefox/">Firefox</a>, <a href="http://www.apple.com/safari/download/">Safari</a> or the latest <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">Internet Explorer 9</a>.</div>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<div id="g-form-container">
+<form id="g-form">
+<input type="text" name="search" placeholder="Add word or phrase" tabindex="1"><button>+</button>
+</form>
+</div>
+<p><div id="g-chart">
+<svg class="g-nodes" width="970" height="500"></svg>
+<div class="g-labels"></div>
+</div>
+<p><div class="g-body">
+<div class="g-header" id="g-topic">Lucastimmons tweets</div>
+<div class="g-subheader">Click on a highlighted word or bubble to show tweets.</div>
+<div class="g-columns">
+<div class="g-mentions"></div>
+<div class="g-mentions"></div>
+<div class="g-mentions"></div>
+</div>
+<br clear="all">
+</div>
+<script src="d3.v2.min.js"></script>
+<script src="index.js"></script>
+</div><!--close main free form -->
+</div><!--close #page -->
+</div><!--close #shell -->
+
+</body>
+</html>
+
+

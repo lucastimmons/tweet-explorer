@@ -1,0 +1,120 @@
+#g-chart {
+  overflow: hidden;
+  position: relative;
+}
+
+#g-form-container {
+  position: relative;
+}
+
+
+.g-node {
+  fill: #f9caca;
+}
+
+.g-node.g-hover {
+  fill: #dfb1b1; /* darker(.5) */
+}
+
+.g-node.g-selected {
+  fill: #fda4a7; /* c *= 2, darker(.5) */
+  stroke: #af5e61; /* c *= 2, darker(2) */
+  stroke-width: 1.5px;
+}
+
+a.g-label {
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+  font-family: sans-serif;
+}
+
+.g-label .g-value {
+  font: 11px sans-serif;
+  white-space: nowrap;
+}
+
+.g-overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.g-body {
+  min-height: 700px;
+}
+
+.g-header,
+	.g-subheader {
+}
+
+.g-header {
+  font: bold 16px sans-serif;
+  margin-top: 30px;
+  position: relative;
+}
+
+.g-subheader {
+  color: #aaa;
+  font: oblique 11px sans-serif;
+  margin-top: 1px;
+  margin-bottom: 11px;
+}
+
+.g-mentions {
+  display: inline-block;
+  float: left;
+  width: 670px;
+}
+
+.g-mention {
+  border-top: solid 1px #ccccd4;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  width: 600px;
+}
+
+.g-mention p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.g-speaker {
+  font: bold 13px sans-serif;
+  text-transform: uppercase;
+}
+
+.g-speaker-title {
+  color: #aaa;
+  font: 11px sans-serif;
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+.g-mention a {
+  background: #e6e6e6;
+  border-radius: 3px;
+  color: #000;
+  padding: 1px 3px;
+  text-decoration: none;
+  text-overflow: clip;
+}
+
+.g-mention .g-hover a {
+  background: #f9caca;
+  color: #654041; /* darker(3) */
+}
+
+.g-mention p:before,
+.g-mention p:after {
+  color: #ddd;
+  font-size: 36px;
+  font-family: sans-serif;
+  position: absolute;
+}
